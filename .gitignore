@@ -1,0 +1,109 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Claves — nunca al repositorio
+*.env.dart.json
+.env
+*.env
+
+# Flutter
+.dart_tool/
+build/.env.dev.json
+.env.prod.json
+/.env.dev.json
+/android/key.properties
+/android/*.jks
+/android/*.keystore
+/ios/Flutter/Maps.Debug.xcconfig
+/ios/Flutter/Maps.Release.xcconfig
+
+# Public portfolio: keep personal configuration and generated data local
+.env
+.env.*
+!.env.example
+!.env.example.json
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+.build/
+.dart_tool/
+.astro/
+DerivedData/
+xcuserdata/
+evidence/
+docs/evidence/
+test-results/
+playwright-report/
+__pycache__/
+*.log
+*.har
+*.sqlite*
+*.store*
+*.db
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+Config/Signing.local.*
+
+.flutter-plugins*
+**/ephemeral/
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+**/google-services.json
+**/GoogleService-Info.plist
+lib/firebase_options.dart
+**/Maps*.xcconfig
+**/local.properties
+**/key.properties
+*.jks
+*.keystore
+
+/firebase.json

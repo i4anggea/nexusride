@@ -1,0 +1,5 @@
+# Copia este archivo a android/key.properties y completa tus valores locales.
+storeFile=/ruta/absoluta/a/nexusride-release.jks
+storePassword=CAMBIAR
+keyAlias=nexusride
+keyPassword=CAMBIAR

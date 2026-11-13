@@ -1,0 +1,10 @@
+project_id = "nexusride-local"
+
+[functions.notify-emergency]
+verify_jwt = true
+
+[functions.bright-action]
+verify_jwt = true
+
+[functions.update-notification-status]
+verify_jwt = true
